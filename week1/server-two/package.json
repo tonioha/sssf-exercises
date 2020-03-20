@@ -9,6 +9,7 @@
   "author": "tonioha",
   "license": "ISC",
   "dependencies": {
+    "acorn": "^7.1.1",
     "express": "^4.17.1",
     "pug": "^2.0.4"
   }

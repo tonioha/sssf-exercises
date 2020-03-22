@@ -172,6 +172,7 @@ modForm.addEventListener('submit', async (evt) => {
 loginForm.addEventListener('submit', async (evt) => {
   evt.preventDefault();
   const data = serializeJson(loginForm);
+  console.log(JSON.stringify(data) + " aa");
   const fetchOptions = {
     method: 'POST',
     headers: {

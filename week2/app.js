@@ -19,8 +19,6 @@ app.use(bodyParser.urlencoded({extended: true})); // for parsing application/x-w
 
 app.use('/cat', passport.authenticate('jwt', {session: false}), cats);
 app.use('/user', passport.authenticate('jwt', {session: false}), users);
-app.use('/cat', cats);
-app.use('/user', users);
 app.use('/auth', authRoute);
 
 
